@@ -1,0 +1,102 @@
+<html>
+  <head>
+
+    <title>
+      Wine-Quality-Prediction 
+    </title>
+
+    <style>
+
+      h1 {
+        color:rgb(252, 119, 107);
+        font-family: verdana;
+        font-size: 300%;
+        text-align: center;
+        font-weight: 100%;
+      }
+      h2 {
+        color:rgb(241, 159, 180);
+        font-family: verdana;
+        font-size: 200%;
+        text-align: center;
+        font-weight: 100%;
+      }
+      p {
+        color: rgb(245, 234, 233);
+        font-family: courier;
+        font-size: 160%;
+        text-align: center;
+      }
+      body {
+        background-size: cover;
+        background-repeat: repeat;
+        background-size: contain;
+      }
+      font {
+        color:rgb(226, 56, 40); 
+        text-align: center;
+      }
+
+    </style>
+
+  </head>
+
+  <body background="static\images\wine5.jpg" >
+    
+    <h1> Wine Quality Prediction </h1>
+
+    <font>
+
+      <b><h2>{{test}}</h2></b>
+    
+    <form action = "/login" method = "POST" >
+
+      <p>
+        <label for = "type"> Choose a Type Of Wine</label>
+        <select name = "type">
+          <option value = "White"><p> White </p></option>
+          <option value = "Red"><p> Red </p></option>
+        </select>
+      </p>
+
+      <p> Fixed Acidity </p>
+      <p><input type = "text" name = "fa" /></p>
+
+      <p> Volatile Acidity </p>
+      <p><input type = "text" name = "va" /></p>
+
+      <p> Citric Acid </p>
+      <p><input type = "text" name = "ca" /></p>
+
+      <p> Residual Sugar </p>
+      <p><input type = "text" name = "rs" /></p>
+
+      <p> Chlorides </p>
+      <p><input type = "text" name = "chl" /></p>
+
+      <p> Free Sulfur Dioxide </p>
+      <p><input type = "text" name = "fsd" /></p>
+
+      <p> Total Sulfur Dioxide </p>
+      <p><input type = "text" name = "tsd" /></p>
+
+      <p> Density </p>
+      <p><input type = "text" name = "d" /></p>
+
+      <p> PH </p>
+      <p><input type = "text" name = "ph" /></p>
+
+      <p> Sulphates </p>
+      <p><input type = "text" name = "sp" /></p>
+
+      <p> Alcohol </p>
+      <p><input type = "text" name = "ah" /></p>
+      
+
+      <p><input type = "submit" value = "submit" /></p>
+
+    </form>
+    </font>
+
+  </body>
+</html>
